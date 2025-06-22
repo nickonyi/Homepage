@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  padding: 20px 60px 20px 60px;
+  border: 1px solid #000;
+}
+.header-background {
+  background-color: rgb(6, 147, 179);
+  width: 100%;
+  height: 67%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  clip-path: polygon(0 0, 100% 0, 100% 55%, 0 100%);
+}
+
+.header-profile-img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-profile-pic-container {
+  flex: 1;
+  height: 350px;
+}
+
+.header-profile-content {
+  flex: 2;
+}
