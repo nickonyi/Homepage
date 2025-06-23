@@ -47,3 +47,7 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+
+.header-profile-content-text {
+  line-height: 1.6;
+}
