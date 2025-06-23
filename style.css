@@ -130,3 +130,9 @@ main {
   font-size: 0.9rem;
   line-height: 1.5;
 }
+
+.main-content-body {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
