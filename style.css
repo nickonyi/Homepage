@@ -65,23 +65,23 @@ a {
 }
 
 svg {
-  height: 2rem;
-}
-
-.icons-wrap {
-  font-size: 2rem;
+  height: 1.5rem;
 }
 
 /* Main */
 main {
   margin: 100px 60px;
-}
-.project-tab {
-  width: 400px;
-  height: 300px;
-  border: 1px solid #000;
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+.project-tab {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .project-tab > :first-child {
@@ -97,4 +97,36 @@ main {
 }
 .project-tab-sc {
   font-size: 2rem;
+  color: white;
+}
+
+.project-tab-content-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-wrap {
+  display: flex;
+  gap: 10px;
+  font-size: 1.5rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.icons-wrap:hover {
+  cursor: pointer;
+}
+
+.icon-rotate {
+  transition: transform 0.5s ease-in-out;
+}
+.icon-rotate:hover {
+  transform: rotate(360deg);
+}
+
+.project-tab-content {
+  padding: 10px 20px;
+}
+.project-tab-content-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
