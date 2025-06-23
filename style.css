@@ -63,3 +63,38 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+svg {
+  height: 2rem;
+}
+
+.icons-wrap {
+  font-size: 2rem;
+}
+
+/* Main */
+main {
+  margin: 100px 60px;
+}
+.project-tab {
+  width: 400px;
+  height: 300px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-tab > :first-child {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d32b2b;
+  padding-inline: 40px;
+}
+.project-tab > :last-child {
+  flex: 1;
+}
+.project-tab-sc {
+  font-size: 2rem;
+}
