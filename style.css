@@ -136,3 +136,14 @@ main {
   gap: 40px;
   flex-wrap: wrap;
 }
+
+/* Footer */
+footer {
+  background-color: rgb(6, 147, 179);
+  color: white;
+}
+
+.footer-image img {
+  width: 500px;
+  height: 300px;
+}
