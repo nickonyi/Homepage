@@ -141,9 +141,47 @@ main {
 footer {
   background-color: rgb(6, 147, 179);
   color: white;
+  display: flex;
+  padding: 40px 60px;
 }
 
+.footer-content {
+  flex: 1;
+}
+
+.footer-content > * {
+  margin: 20px 0;
+}
+.footer-image {
+  flex: 1;
+}
 .footer-image img {
   width: 500px;
   height: 300px;
+}
+
+footer span > img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.footer-content-contact,
+.footer-content-email {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-content-header {
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+
+.footer-profile-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 2rem;
+}
+
+.colored-black {
+  color: black;
 }
