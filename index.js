@@ -5,7 +5,9 @@ function createProjectTab(project) {
   projectTab.className = 'project-tab';
 
   projectTab.innerHTML = `
-    <div class="project-tab-sc">${project.screenshot}</div>
+     <div class="project-tab-sc" style="background-color: ${project.bgColor};">
+      ${project.screenshot}
+    </div>
     <div class="project-tab-content">
       <div class="project-tab-content-header-wrapper">
         <p class="project-tab-content-header">${project.name}</p>

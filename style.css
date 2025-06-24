@@ -70,7 +70,7 @@ svg {
 
 /* Main */
 main {
-  margin: 100px 60px;
+  margin: 100px 20px 100px 60px;
   display: flex;
   flex-direction: column;
   gap: 20px;
