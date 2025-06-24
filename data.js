@@ -5,41 +5,46 @@ export const projectData = [
       'A personal portfolio showcasing my web development projects and skills.',
     screenshot: 'Screenshot of Portfolio Website',
     githubIcon: true,
-    bgColor: '#f0a500',
+    bgColor: '#a31621',
   },
   {
     name: 'Weather App',
-    description: 'An app that fetches and displays current weather data.',
+    description:
+      'An app that fetches and displays current weather data using OpenWeather API.',
     screenshot: 'Screenshot of Weather App',
     githubIcon: true,
-    bgColor: '#0096c7',
+    bgColor: '#b39ddb',
   },
   {
     name: 'Expense Tracker',
-    description: 'Helps users monitor and categorize expenses.',
+    description:
+      'A simple tracker that helps users monitor and categorize daily expenses.',
     screenshot: 'Screenshot of Expense Tracker',
     githubIcon: true,
-    bgColor: '#ef476f',
+    bgColor: '#81c784',
   },
   {
     name: 'Blog Platform',
-    description: 'A blogging system with user auth and post editing.',
+    description:
+      'A basic blogging system with post creation, editing, and user authentication.',
     screenshot: 'Screenshot of Blog Platform',
     githubIcon: true,
-    bgColor: '#06d6a0',
+    bgColor: '#ce93d8',
   },
   {
     name: 'Chat Application',
-    description: 'Real-time chat app with rooms and WebSocket support.',
+    description:
+      'A real-time chat app using WebSocket and Node.js with multiple rooms.',
     screenshot: 'Screenshot of Chat Application',
     githubIcon: true,
-    bgColor: '#8338ec',
+    bgColor: '#f4a261',
   },
   {
     name: 'To-Do List App',
-    description: 'To-do list with filtering and local storage.',
+    description:
+      'A responsive to-do list with local storage support and task filtering.',
     screenshot: 'Screenshot of To-Do List App',
     githubIcon: true,
-    bgColor: '#ffb703',
+    bgColor: '#4fc3f7',
   },
 ];
