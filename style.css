@@ -185,3 +185,11 @@ footer span > img {
 .colored-black {
   color: black;
 }
+
+/* Media Queries */
+@media (max-width: 1068px) {
+  .header-background {
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 100%);
+    height: 40%;
+  }
+}
